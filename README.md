@@ -1,4 +1,4 @@
-# sort-algorithms-js-benchmark
+# sort-algorithms-js-benchmark :bar_chart:
 Trabalho do curso ANÁLISE E DESENVOLVIMENTO DE SISTEMAS na discipina de estruturas de dados.
 
 ## Objetivo
