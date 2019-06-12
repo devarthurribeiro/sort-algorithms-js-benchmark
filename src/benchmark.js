@@ -1,17 +1,10 @@
 const fs = require('fs')
 
-const getDataByFile = file =>
-  fs
-    .readFileSync('./numbers/' + file, 'utf-8')
-    .split(',')
-    .map(Number)
-
 function benchmark (algorithm, numbers, mode, type) {
-  const data = getDataByFile(`${mode}/${numbers}.dat`)
   
   const start = process.hrtime()
 
-  sortedArray = algorithm(data)
+  sortedArray = algorithm(numbers)
 
   // uso de memoria
   const used = process.memoryUsage()
